@@ -50,6 +50,10 @@ h1 {
   font-size: 0;
 }
 
+.logo-pc {
+  display: none;
+}
+
 /* =========== main ============ */
 .main-head {
   padding-top: 64px;
@@ -70,12 +74,11 @@ h1 {
   margin: 64px 16px;
 }
 
-.feature { 
+.feature {
   padding-top: 64px;
 }
 
-.feature img {
-  display: block;
+.pic {
   margin: 0 auto;
 }
 
@@ -88,13 +91,60 @@ h1 {
 }
 
 /* =========== footer ============ */
-footer{
+footer {
   padding: 64px 0;
   background: #444;
   text-align: center;
   color: #fff;
 }
 
-small { 
+small {
   font-size: 14px;
+}
+
+
+/* =========== large screen ============ */
+@media (width >=600px) {
+
+  /* =========== header ============ */
+  .logo-sp {
+    display: none;
+  }
+
+  .logo-pc {
+    display: inline;
+  }
+
+  /* =========== main ============ */
+  .main-head {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-head div {
+    flex: 1;
+  }
+
+  .main-head img {
+    margin-top: 0;
+  }
+
+
+  .feature {
+    display: flex;
+    gap: 32px;
+  }
+
+  .pic {
+    width: 300px;
+  }
+
+  .desc {
+    flex: 1;
+  }
+
+  .feature:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
 }
