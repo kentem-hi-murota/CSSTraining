@@ -1,2 +1,62 @@
 @charset "utf-8";
 
+/*=========== common ============ */
+body {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+  background: green;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+/* =========== header ============ */
+header {
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 0;
+}
+
+
+/* =========== main ============ */
+
+.main-head {
+  padding-top: 64px;
+  text-align: center;
+  background: skyblue repeat-x center bottom url("img/bg.png");
+}
+
+.main-head .btn {
+  margin-top: 64px;
+}
+
+.app-img {
+  margin-top: 64px;
+}
