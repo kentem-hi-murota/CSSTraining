@@ -24,6 +24,12 @@ img {
 h2 {
   margin: 0;
   font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
 }
 
 p {
@@ -44,9 +50,7 @@ h1 {
   font-size: 0;
 }
 
-
 /* =========== main ============ */
-
 .main-head {
   padding-top: 64px;
   text-align: center;
@@ -59,4 +63,38 @@ h1 {
 
 .app-img {
   margin-top: 64px;
+}
+
+
+.features {
+  margin: 64px 16px;
+}
+
+.feature { 
+  padding-top: 64px;
+}
+
+.feature img {
+  display: block;
+  margin: 0 auto;
+}
+
+.feature h3 {
+  margin-top: 16px;
+}
+
+.feature p {
+  margin-top: 16px;
+}
+
+/* =========== footer ============ */
+footer{
+  padding: 64px 0;
+  background: #444;
+  text-align: center;
+  color: #fff;
+}
+
+small { 
+  font-size: 14px;
 }
