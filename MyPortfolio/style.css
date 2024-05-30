@@ -50,3 +50,24 @@ main h3 {
   margin: 16px 0 0;
   line-height: 1.8;
 }
+
+
+footer {
+  border-top: 2px solid #ddd;
+  padding: 64px 0;
+  text-align: center;
+}
+
+footer small {
+  font-size: 14px;
+  color: #aaa;
+}
+
+footer img {
+  margin-top: 16px;
+}
+
+footer a:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
