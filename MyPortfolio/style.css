@@ -11,13 +11,12 @@ header {
 }
 
 header img {
-
   border-radius: 50%;
 }
 
-header h1{
+header h1 {
   margin: 26px 0 0;
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -26,22 +25,28 @@ header p {
 }
 
 main {
-  width: 400px;
-  margin: 0 auto;
+  margin: 64px 0;
 }
 
-main h2{
-  padding-top: 32px;
+main h2 {
+  margin: 0;
+  font-size: 24px;
   text-align: center;
   font-weight: normal;
 }
 
 main h3 {
-
-  font-size: 1.3rem;
+  margin: 16px 0 0;
+  font-size: 20px;
   font-weight: normal;
 }
 
 .work {
-  padding-top: 48px;
+  width: 400px;
+  margin: 64px auto 0;
+}
+
+.work p {
+  margin: 16px 0 0;
+  line-height: 1.8;
 }
