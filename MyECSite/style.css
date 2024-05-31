@@ -5,23 +5,23 @@ body {
   margin: 0;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
 h2 {
-  margin: 32px 0;
+  margin: 0;
   font-size: 20px;
   font-weight: normal;
 }
 
 h3 {
-  margin: 8px 0 0;
+  margin: 0;
   font-size: 16px;
   font-weight: normal;
 }
 
-p{
+p {
   margin: 0;
 }
 
@@ -32,12 +32,18 @@ img {
 .container {
   width: calc(100% - 64px);
   max-width: 600px;
-  margin: 32px auto;
+  margin: 0px auto;
+  padding: 32px 0;
   box-sizing: border-box;
 }
+
 /* =============== header ============== */
 
 /* =============== main ============== */
+.products {
+  margin: 32px;
+}
+
 .products ul {
   margin: 32px 0 0;
   padding: 0;
@@ -52,8 +58,21 @@ img {
   box-sizing: border-box;
 }
 
-.products img{
+.products img {
   width: 100%;
   height: auto;
 }
 
+.products h3 {
+  margin-top: 8px;
+}
+
+/* =============== footer ============== */
+footer {
+  margin-top: 32px;
+  text-align: center;
+}
+
+small {
+  font-size: 14px;
+}
