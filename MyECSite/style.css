@@ -58,6 +58,15 @@ img {
   box-sizing: border-box;
 }
 
+.products a {
+  all: unset;
+  cursor: pointer;
+}
+
+.products a:hover {
+  opacity: 0.7;
+}
+
 .products img {
   width: 100%;
   height: auto;
@@ -77,15 +86,17 @@ small {
   font-size: 14px;
 }
 
-
 /* =============== 商品ページ ============== */
 
 .product {
-  margin: 32px 0;
+  margin-top: 32px;
   display: flex;
   gap: 32px;
 }
 
+.product section {
+  flex: 1;
+}
 
 .description p {
   margin-top: 16px;
@@ -94,6 +105,7 @@ small {
 .description button {
   margin-top: 16px;
   padding: 8px 16px;
+  cursor: pointer;
 }
 
 .picture img{
