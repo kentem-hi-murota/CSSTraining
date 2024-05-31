@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* =============== common ============== */
 body {
   margin: 0;
 }
@@ -8,12 +9,12 @@ img {
   vertical-align: bottom;
 }
 
-header{
-  padding: 32px;
+.container {
+  width: calc(100% - 64px);
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-h1{
-  max-width: 650px;
-  margin: 0 auto;
-}
+/* =============== header ============== */
 
