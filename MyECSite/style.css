@@ -76,3 +76,27 @@ footer {
 small {
   font-size: 14px;
 }
+
+
+/* =============== 商品ページ ============== */
+
+.product {
+  margin: 32px 0;
+  display: flex;
+  gap: 32px;
+}
+
+
+.description p {
+  margin-top: 16px;
+}
+
+.description button {
+  margin-top: 16px;
+  padding: 8px 16px;
+}
+
+.picture img{
+  width: 100%;
+  height: auto;
+}
